@@ -1,0 +1,4 @@
+1) right click database "Library"
+2) click "New Query"
+
+	connects to database by default
