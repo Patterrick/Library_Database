@@ -2,10 +2,34 @@
 2) click "New Query"
 
 	connects to database by
-	
+
+
+
+
+
+
 __________________________________________________________________________________________________________________________________________
 (in the windows form code)
 
-
 System.Configureation
 System.Data.SqlCleint
+
+
+SqlConnection connection
+String connectionString
+
+public frnMain()
+{
+	InitializeComponent();
+	ConnectionStricng = ConfigurationManager.ConnectionStrings["Cookbook.Properties.Settings.CookbookConnectionString"].Connection String;
+}
+
+private void PopulateRecipies()
+{
+	using(connection = new sqlConnection(connectionString))
+	using(SqlDataAdapter adapter = new SqlDataAdaper("SELERCT * FROM Recipie", connection))
+	{
+		DataTable recipieTable = new DataTable();
+		adaper.Fill
+	}
+}
