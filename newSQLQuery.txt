@@ -1,4 +1,11 @@
 1) right click database "Library"
 2) click "New Query"
 
-	connects to database by default
+	connects to database by
+	
+__________________________________________________________________________________________________________________________________________
+(in the windows form code)
+
+
+System.Configureation
+System.Data.SqlCleint
